@@ -1,0 +1,15 @@
+{
+  "initial_records": 1500,
+  "duplicate_arxiv_ids": 0,
+  "duplicate_abstracts": 0,
+  "records_after_deduplication": 1500,
+  "content_records_classified": 1500,
+  "category_check_removed": 0,
+  "content_filter_kept": 1493,
+  "content_filter_rejected": 7,
+  "content_filter_needs_review": 0,
+  "automated_review_queue": 21,
+  "manual_review_kept": 14,
+  "manual_review_rejected": 7,
+  "final_materials_records": 1493
+}
