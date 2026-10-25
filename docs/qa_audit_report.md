@@ -106,8 +106,12 @@ The sample estimates that about 46% of the complete QA dataset contains at least
 | QA generation and automatic format checks | Attempts not logged | Count not recoverable | 240 accepted |
 | Chemical-formula metadata cleanup | 240 pairs / 187 entries | 0 pairs / 82 metadata entries | 240 pairs / 105 entries |
 | Random manual audit | 50 sampled | 23 flagged, not removed | 27 passed review |
+| Post-audit curation | 240 | 6 removed | 234 |
+| Category cleanup | 234 | 3 removed | 231 |
 
 The content filter initially sent 21 abstracts to a review queue. Manual review kept 14 and rejected 7, producing 1,493 final abstracts. The QA generator saved only accepted pairs and did not log every skipped or rejected generation attempt, so that removed count cannot be reconstructed reliably. Formula cleanup removed metadata entries rather than QA records.
+
+The materials filter removed only 7 of the 1,500 collected abstracts. The random audit covered 50 pairs. After removing nine unsuitable pairs across the two curation stages, 190 pairs in the final dataset had not been included in the manual audit.
 
 ## Files
 

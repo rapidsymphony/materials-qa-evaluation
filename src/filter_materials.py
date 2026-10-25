@@ -8,8 +8,7 @@ import requests
 MODEL = "llama3.2"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 
-# Set this to a small number for testing.
-# Change it to None when you are ready to process everything.
+# Set this to like 10 for testing 
 LIMIT = None
 
 input_path = Path(

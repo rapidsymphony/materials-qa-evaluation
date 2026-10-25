@@ -10,12 +10,18 @@
     "qa_0184",
     "qa_0190"
   ],
-  "final_pairs": 234,
+  "final_pairs": 231,
   "question_type_counts": {
     "material_property": 74,
     "not_stated": 46,
     "performance_metric": 57,
-    "synthesis_condition": 57
+    "synthesis_condition": 54
   },
-  "source_audit": "data/processed/qa_audit_reviewed.jsonl"
+  "source_audit": "data/processed/qa_audit_reviewed.jsonl",
+  "category_cleanup_removed_pairs": 3,
+  "category_cleanup_removed_qa_ids": [
+    "qa_0060",
+    "qa_0196",
+    "qa_0228"
+  ]
 }
