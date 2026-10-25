@@ -1,0 +1,91 @@
+{
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "total_responses": 234,
+  "overall": {
+    "supported": {
+      "count": 168,
+      "percentage": 71.8
+    },
+    "unsupported": {
+      "count": 56,
+      "percentage": 23.9
+    },
+    "correctly_abstained": {
+      "count": 10,
+      "percentage": 4.3
+    }
+  },
+  "by_question_type": {
+    "material_property": {
+      "supported": 59,
+      "unsupported": 15,
+      "correctly_abstained": 0
+    },
+    "not_stated": {
+      "supported": 27,
+      "unsupported": 14,
+      "correctly_abstained": 5
+    },
+    "performance_metric": {
+      "supported": 48,
+      "unsupported": 8,
+      "correctly_abstained": 1
+    },
+    "synthesis_condition": {
+      "supported": 34,
+      "unsupported": 19,
+      "correctly_abstained": 4
+    }
+  },
+  "by_reference_answerability": {
+    "answerable": {
+      "supported": 141,
+      "unsupported": 42,
+      "correctly_abstained": 5
+    },
+    "not_stated_reference": {
+      "supported": 27,
+      "unsupported": 14,
+      "correctly_abstained": 5
+    }
+  },
+  "reference_conflicts": {
+    "count": 33,
+    "qa_ids": [
+      "qa_0015",
+      "qa_0048",
+      "qa_0052",
+      "qa_0064",
+      "qa_0068",
+      "qa_0076",
+      "qa_0084",
+      "qa_0088",
+      "qa_0092",
+      "qa_0100",
+      "qa_0104",
+      "qa_0106",
+      "qa_0112",
+      "qa_0120",
+      "qa_0124",
+      "qa_0128",
+      "qa_0131",
+      "qa_0132",
+      "qa_0136",
+      "qa_0140",
+      "qa_0146",
+      "qa_0148",
+      "qa_0168",
+      "qa_0172",
+      "qa_0176",
+      "qa_0182",
+      "qa_0188",
+      "qa_0192",
+      "qa_0204",
+      "qa_0208",
+      "qa_0212",
+      "qa_0220",
+      "qa_0227"
+    ]
+  },
+  "classification_method": "Pair-by-pair rubric review against the supplied abstract. The reference answer was used as an aid but was not assumed to be correct."
+}

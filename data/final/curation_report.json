@@ -1,0 +1,21 @@
+{
+  "input_pairs": 240,
+  "corrected_pairs": 17,
+  "removed_pairs": 6,
+  "removed_qa_ids": [
+    "qa_0008",
+    "qa_0024",
+    "qa_0027",
+    "qa_0151",
+    "qa_0184",
+    "qa_0190"
+  ],
+  "final_pairs": 234,
+  "question_type_counts": {
+    "material_property": 74,
+    "not_stated": 46,
+    "performance_metric": 57,
+    "synthesis_condition": 57
+  },
+  "source_audit": "data/processed/qa_audit_reviewed.jsonl"
+}
